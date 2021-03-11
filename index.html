@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Hello World</title>
+</head>
+<body>
+    <form action="/" method="post">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <img style="width: 5%; height: 5%;"  src="logo.png" alt="">
+      <a style="margin-left: 1%;" class="navbar-brand" href="#">CodeAcers</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="newProject.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tags</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="helloWorld.html">Basics</a>
+              <a class="dropdown-item" href="">Binary Search</a>
+              <a class="dropdown-item" href="">Graphs</a>
+              <a class="dropdown-item" href="">Arrays</a>
+              <a class="dropdown-item" href="">Dynamic Programming</a>
+              <a class="dropdown-item" href="">Recursion</a>
+              <a class="dropdown-item" href="">Linked List</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">CodeChef </a>
+                <a class="dropdown-item" href="">CodeForces </a>
+                <a class="dropdown-item" href="">HackerRank </a>
+                <a class="dropdown-item" href="">GeekForGeeks </a>
+                <a class="dropdown-item" href="">HackerEarth </a>
+              </div>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 1%;">
+        <div class="row">
+
+            <div class="col-lg-9 col-md-8" style="text-align: center;">
+                <div class="col" style="height:auto;padding-bottom: 0.5%; background-color: rgb(240, 196, 156); margin-bottom: 1.5%;">
+                    <h1>Writing First C++ Program </h1>
+                    <h3>Lets print Hello World...!</h3>
+                </div>
+                <div>
+                    <p style="margin-right: 1%; text-align: left;">
+                        In this example, we will learn to create a simple program named "Hello World" in C++ programming.
+                        A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a new programming language to a newbie.
+                            <br><br>
+                        Let's see how C++ "Hello, World!" program works.
+                      </p>
+
+                        <br>
+                        <br>
+                </div>
+
+                <div class="col" style="background-color: rgb(226, 225, 225);padding: 0.8%;">
+                    <b>C++ "Hello World!! Program"</b>
+                    <div class="row" style="background-color: white; height: fit-content; text-align: justify; margin: 1% 1%;">
+
+
+                        <code class="helper cpp">
+                            // Your First C++ Program<br>
+                            #include >iostream>
+                            <br>
+                            using namespace std;
+                            <br>
+                            int main() {
+                            <br>
+                            std::cout << "Hello World!";
+                            <br>
+                            return 0;
+                            <br>
+                            }
+                        </code>
+                    </div>
+                    <div class="col" style="text-align: left; background-color: white; margin-top: 4%;">
+                        <b>output</b>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="col intro" style="text-align: center;">
+                    <h1>Working of C++ "Hello World!!" Program</h1>
+                    <ol style="font-size: 120%; padding-top: 4%;">
+                        <li>
+                            In C++, any line starting with // is a comment. Comments are intended for the person reading the code to better understand the functionality of the program. It is completely ignored by the C++ compiler.
+                        </li>
+                        <li>
+                            The #include is a preprocessor directive used to include files in our program. The above code is including the contents of the iostream file.
+
+                            This allows us to use cout in our program to print output on the screen.
+                                <br>
+                                <br>
+                            For now, just remember that we need to use #include <iostream> to use cout that allows us to print output on the screen.
+                        </li>
+                        <li>
+                            A valid C++ program must have the main() function. The curly braces indicate the start and the end of the function.
+                            <br>
+                            <br>
+                            The execution of code beings from this function.
+                        </li>
+                        <li>
+                            std::cout prints the content inside the quotation marks. It must be followed by << followed by the format string. In our example, "Hello World!" is the format string.
+                            <br><br>
+                            <b>Note:</b> ( ; ) is used to indicate the end of a statement.
+                        </li>
+                        <li>
+                            The return 0; statement is the "Exit status" of the program. In simple terms, the program ends with this statement.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+
+          <div class="col helper">
+            <hr>
+            <h4>More Related Basic Questions</h4>
+            <hr>
+
+            <li>
+                <a href="helloWorld.html">Program to print helloWorld</a>
+           </li>
+            <li>
+                <a href="addTwoNum.html">Program to add two numbers</a>
+            </li>
+            <li>
+                <a href="">Program to print prime numbers from 1 to n</a>
+            </li>
+            <li>
+                <a href="">Program to swap two numbers</a>
+            </li>
+            <li>
+                <a href="">Program to check number even or odd</a>
+            </li>
+            <li>
+                <a href="">Program to multiply to numbers</a>
+            </li>
+            <li>
+                <a href="">Program to find largest of three numbers</a>
+            </li>
+            <a href="seeMoreBasic.html" style="margin-left:60%;">see more...</a>
+          </div>
+
+        </div>
+    </div>
+
+   </form>
+</body>
+</html>
